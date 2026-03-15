@@ -35,7 +35,7 @@ opencv-python
 **1. Clone or download the repo**
 
 ```
-git clone https://github.com/yourusername/full-body-tracker.git
+git clone https://github.com/LordCarvell/BodyTrackingTesting.git
 cd full-body-tracker
 ```
 
