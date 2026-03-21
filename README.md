@@ -35,11 +35,11 @@ opencv-python
 **1. Clone or download the repo**
 
 ```
-git clone https://github.com/LordCarvell/BodyTrackingTesting.git
-cd full-body-tracker
+git clone https://github.com/LordCarvell/Body-Tracker.git
+cd body-tracker
 ```
 
-Or just download `full_body_tracker.py` on its own.
+Or just download `main.py` on its own.
 
 **2. Install the dependencies**
 
@@ -50,7 +50,7 @@ pip install mediapipe opencv-python
 **3. Run it**
 
 ```
-python full_body_tracker.py
+python main.py
 ```
 
 On first run it will download three model files into the same folder as the script. About 64 MB total and only happens once.
@@ -84,8 +84,8 @@ On first run it will download three model files into the same folder as the scri
 ## Project Structure
 
 ```
-full-body-tracker/
-├── full_body_tracker.py          # whole application in one file
+body-tracker/
+├── main.py          # whole application in one file
 ├── pose_landmarker_heavy.task    # downloaded automatically on first run
 ├── hand_landmarker.task          # downloaded automatically on first run
 ├── face_landmarker.task          # downloaded automatically on first run
